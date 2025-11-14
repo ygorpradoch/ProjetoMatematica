@@ -1,0 +1,12 @@
+{
+  "name": "calculadora-conjuntos-mat-discreta",
+  "version": "1.0.0",
+  "description": "Um projeto de front-end para Mat. Discreta.",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "latest"
+  }
+}
