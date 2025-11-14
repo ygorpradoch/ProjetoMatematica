@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Conjuntos (Mat. Discreta)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora de Operações de Conjuntos</h1>
+        <p>Digite os elementos separados por vírgula (ex: 1, 2, 3, 4)</p>
+
+        <div class="input-area">
+            <div class="set-input">
+                <label for="setA">Conjunto A:</label>
+                <textarea id="setA" rows="3" placeholder="1, 2, 3"></textarea>
+            </div>
+            <div class="set-input">
+                <label for="setB">Conjunto B:</label>
+                <textarea id="setB" rows="3" placeholder="3, 4, 5"></textarea>
+            </div>
+        </div>
+
+        <div class="buttons-area">
+            <button id="btn-uniao">União (A ∪ B)</button>
+            <button id="btn-intersecao">Interseção (A ∩ B)</button>
+            <button id="btn-diff-ab">Diferença (A - B)</button>
+            <button id="btn-diff-ba">Diferença (B - A)</button>
+        </div>
+
+        <div class="result-area">
+            <h2>Resultado:</h2>
+            <pre id="resultado-final">{ }</pre>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
